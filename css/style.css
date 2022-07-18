@@ -1,0 +1,14 @@
+.body{
+	position: relative;
+	background-color: #FFC3C3;
+	height: 100%;
+	width: 100%;
+}
+
+.group1{
+	position: absolute;
+	background-color: white;
+	width: 401px;
+	height: 838px;
+
+}
