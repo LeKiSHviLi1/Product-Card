@@ -1,14 +1,149 @@
-.body{
-	position: relative;
+body{
 	background-color: #FFC3C3;
-	height: 100%;
-	width: 100%;
+	min-height: 100vh;
+	display: grid;
 }
 
-.group1{
-	position: absolute;
+.card{
 	background-color: white;
+	border-color: #E7E6EB;
+	border: 1px;
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
 	width: 401px;
-	height: 838px;
+	margin: auto;
+	padding: 40px;
+	padding-top: 0px;
+	box-sizing: border-box;	
+}
+.img{
+	display: flex;
+	margin-left: -40px;
+	margin-bottom: 24px;
+}
+.price{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	color: #333333;
+	margin-bottom: 16px;
 
+}
+
+.h1{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #333333;	
+	margin-bottom: 8px;
+}
+
+.p1{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+	margin-bottom: 24px	;
+
+}
+
+.color{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+	margin-bottom: 16px ;
+}
+
+.btn-color-container{
+	display: flex;
+	gap: 0px 16px ;
+	margin-bottom: 32px;
+}
+
+.btn-color1{
+	width: 40px;
+	height: 40px;
+	display: block;
+	border: 4px solid black;
+	background-color: #EE4444;
+	border-radius: 100%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-color2{
+	width: 40px;
+	height: 40px;
+	display: block;
+	border: 4px solid white;
+	background-color: #3C81F6;
+	border-radius: 100%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-color3{
+	width: 40px;
+	height: 40px;
+	display: block;
+	border: 4px solid white;
+	background-color: black	;
+	border-radius: 100%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.cart-conteiner{
+	display: flex;
+	width: 320px;
+	height: 55px;
+	background-color: #FBBF23;
+	border-radius: 8px;
+	margin-bottom: 16px;
+}
+.cart{
+	font-family: 'Roboto';
+	background-color: #FBBF23	;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #333333;
+	margin: auto;
+	border-width: 0px;
+}
+
+.buy-conteiner{
+	display: flex;
+	width: 320px;
+	height: 55px;
+	border: 1px solid #61A5FA;
+	border-radius: 8px;
+	margin-bottom: 32px;
+}
+.buy{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #333333;
+	background-color: #fff;
+	border-width: 0px;
+	margin: auto;
+}
+
+
+.reviews{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #61A5FA;
 }
