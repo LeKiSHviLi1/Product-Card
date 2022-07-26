@@ -19,7 +19,7 @@ body{
 .img{
 	display: flex;
 	margin-left: -40px;
-	margin-bottom: 24px;
+	margin-bottom: 16px;
 }
 .price{
 	font-family: 'Roboto';
@@ -28,7 +28,7 @@ body{
 	font-size: 32px;
 	line-height: 38px;
 	color: #333333;
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 
 }
 
@@ -49,7 +49,7 @@ body{
 	font-size: 16px;
 	line-height: 24px;
 	color: #333333;
-	margin-bottom: 24px	;
+	margin-bottom: 16px	;
 
 }
 
@@ -60,13 +60,13 @@ body{
 	font-size: 16px;
 	line-height: 24px;
 	color: #666666;
-	margin-bottom: 16px ;
+	margin-bottom: 8px ;
 }
 
 .btn-color-container{
 	display: flex;
 	gap: 0px 16px ;
-	margin-bottom: 32px;
+	margin-bottom: 24px;
 }
 
 .btn-color1{
@@ -122,7 +122,7 @@ body{
 	height: 55px;
 	border: 1px solid #61A5FA;
 	border-radius: 8px;
-	margin-bottom: 32px;
+	margin-bottom: 24px;
 }
 .buy{
 	font-family: 'Roboto';
